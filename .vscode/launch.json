@@ -1,0 +1,16 @@
+{
+    "configurations": [
+      {
+        "name": "Deploy Cloud Function",
+        "type": "cloudcode.cloudfunctions",
+        "request": "launch",
+        "functionName": "fx-technical-case-function",
+        "gen": "GEN_2",
+        "entryPoint": "etlfxpipeline",
+        "revision": "fx-technical-case-function-00003-tef",
+        "testInput": "",
+        "region": "europe-southwest1",
+        "runtime": "python313"
+      }
+    ]
+}
