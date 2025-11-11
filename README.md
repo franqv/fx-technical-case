@@ -4,6 +4,7 @@ This project implements a comprehensive ETL (Extract, Transform, Load) pipeline 
 
 The pipeline is designed to be fully reproducible, scalable, and optimized for analytical querying, particularly **Year-to-Date (YTD) calculations**.
 
+**You can have a look at the design note in this file: [Design Note and Justification](Design_note.md)**
 ---
 
 ## 🧭 Table of Contents
@@ -67,8 +68,6 @@ To set up the project locally for testing:
 Create the following file to define your configuration. These variables **must** be set in your Cloud Function's environment settings upon deployment.
 
 ```
-# File: .env
-
 # --- Google Cloud Configuration ---
 # Your GCP Project ID
 GCP_PROJECT_ID="your-gcp-project-id"
